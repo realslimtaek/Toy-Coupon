@@ -1,6 +1,6 @@
-package com.toy.projects.coupon.repository
+package com.example.toyissuecoupon.repository
 
-import com.toy.projects.coupon.entity.CouponIssueHistory
+import com.example.toyissuecoupon.entity.CouponIssueHistory
 import org.springframework.data.repository.reactive.ReactiveCrudRepository
 import reactor.core.publisher.Mono
 

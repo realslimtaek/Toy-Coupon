@@ -1,7 +1,9 @@
-package com.toy.projects.config
+package com.example.toyissuecoupon.config
 
+import com.example.toyissuecoupon.repository.CouponIssueHistoryRedisRepository
+import com.example.toyissuecoupon.repository.CouponIssueHistoryRepository
+import com.example.toyissuecoupon.repository.CouponRepository
 import com.toy.projects.coupon.repository.CouponStockRedisRepository
-import com.toy.projects.coupon.repository.CouponRepository
 import org.springframework.boot.ApplicationArguments
 import org.springframework.boot.ApplicationRunner
 import org.springframework.stereotype.Component
@@ -13,7 +15,9 @@ private val now get() = LocalDateTime.now(ZoneId.of("Asia/Seoul"))
 @Component
 class RedisWarmupRunner(
     private val couponRepository: CouponRepository,
-    private val redisRepository: CouponStockRedisRepository
+    private val couponIssueHistoryRepository: CouponIssueHistoryRepository,
+    private val redisRepository: CouponStockRedisRepository,
+    private val historyRedisRepository: CouponIssueHistoryRedisRepository
 ) : ApplicationRunner {
 
     override fun run(args: ApplicationArguments) {
@@ -30,6 +34,17 @@ class RedisWarmupRunner(
             .collectList()
             .subscribe(
                 { ids -> println("✨ 총 ${ids.size}개의 쿠폰 로드 완료!") },
+                { error -> println("❌ 에러: ${error.message}") }
+            )
+
+        couponIssueHistoryRepository.findAll()
+            .groupBy { it.couponId }
+            .mapNotNull {
+                historyRedisRepository.setHistory(it.key(), it.map { e -> e.userId })
+            }
+            .collectList()
+            .subscribe(
+                { ids -> println("✨ 총 ${ids.size}개의 쿠폰 히스토리 로드 완료!") },
                 { error -> println("❌ 에러: ${error.message}") }
             )
     }
