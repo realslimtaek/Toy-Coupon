@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
+import reactor.core.publisher.Mono
 
 @RestController
 @RequestMapping("/v1/coupon")
@@ -19,9 +20,8 @@ class CouponController(
     fun issueCoupon(
         @PathVariable("userId") userId: String,
         @PathVariable("couponId") couponId: Long,
-    ) {
-
-        couponService.test(userId, couponId)
+    ): Mono<Void> {
+        return couponService.test(userId, couponId)
 
     }
 }
