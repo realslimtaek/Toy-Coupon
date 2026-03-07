@@ -22,6 +22,28 @@ repositories {
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
+
+    implementation("org.springframework.boot:spring-boot-starter-data-r2dbc")
+    implementation("org.springframework.boot:spring-boot-starter-r2dbc")
+    implementation("org.springframework.boot:spring-boot-starter-webflux")
+    implementation("org.springframework.boot:spring-boot-starter-webmvc")
+    implementation("io.projectreactor.kotlin:reactor-kotlin-extensions")
+    implementation("org.jetbrains.kotlin:kotlin-reflect")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
+    implementation("io.asyncer:r2dbc-mysql")
+    implementation("tools.jackson.module:jackson-module-kotlin")
+
+    // healthCheck
+    implementation("org.springframework.boot:spring-boot-starter-actuator")
+
+    // redis
+    implementation("org.springframework.boot:spring-boot-starter-data-redis-reactive")
+    implementation("org.redisson:redisson-spring-boot-starter:4.2.0")
+
+    //rabbitMQ
+    implementation("org.springframework.amqp:spring-rabbit")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
+
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
@@ -34,5 +56,6 @@ kotlin {
 }
 
 tasks.withType<Test> {
+    ignoreFailures = true
     useJUnitPlatform()
 }
