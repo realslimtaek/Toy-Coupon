@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="155de07d-c926-4a36-a2c8-b82ff97e630a" name="Changes" comment="feat: init" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Toy-Coupon">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Toy-Coupon/Toy-Issue-Coupon">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Toy-Issue-Coupon">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Toy-Coupon">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Toy-Issue-Coupon">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Toy-Coupon/Toy-Issue-Coupon">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Toy_Coupon" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Toy_Coupon" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Toy_Coupon" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/Toy-Coupon" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Toy-Coupon" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;realslimtaek&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/realslimtaek/Toy-Coupon-Issue.git&quot;,
+    &quot;accountId&quot;: &quot;2916bed0-80a5-47fc-b5f4-5830703a9353&quot;
+  }
+}</component>
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$/Toy-Issue-Coupon" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-9.3.1-bin/23ovyewtku6u96viwx3xl3oks/gradle-9.3.1" javaHome="$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-25.0.2/Contents/Home" gradleVersion="9.3.1" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="3AQCrWfOHVbh3f6kxC6ok38F9NB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build Toy-Coupon.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Toy-Coupon [build] (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Toy-Coupon [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Toy-Coupon [clean] (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Toy-Coupon [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Toy-Issue-Coupon [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Toy-Issue-Coupon [clean] (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Toy-Issue-Coupon [clean].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CouponIssueApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/realslimtaek/IdeaProjects/Toy-Coupon/Toy-Coupon/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Toy-Coupon/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
+      <recent name="com.toy.projects.coupon.entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Toy-Coupon [build] (1)">
+    <configuration name="Toy-Coupon [build] (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Toy-Coupon" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Toy-Coupon [clean] (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Toy-Coupon" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Toy-Issue-Coupon [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Toy-Issue-Coupon" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Toy-Issue-Coupon [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Toy-Issue-Coupon" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="projects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="projects" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CouponIssueApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="local" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="Toy_Coupon.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.toy.projects.CouponIssueApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.toy.projects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="com.toy.projects.config.*" />
+          <option name="ENABLED" value="false" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.Toy-Coupon [build] (1)" />
+      <item itemvalue="Gradle.Toy-Coupon [clean] (1)" />
+      <item itemvalue="Gradle.Toy-Issue-Coupon [build]" />
+      <item itemvalue="Gradle.Toy-Issue-Coupon [clean]" />
+      <item itemvalue="Spring Boot.CouponIssueApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Toy-Coupon [build] (1)" />
+        <item itemvalue="Gradle.Toy-Issue-Coupon [build]" />
+        <item itemvalue="Gradle.Toy-Issue-Coupon [clean]" />
+        <item itemvalue="Gradle.Toy-Coupon [clean] (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="155de07d-c926-4a36-a2c8-b82ff97e630a" name="Changes" comment="" />
+      <created>1772515605487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1772515605487</updated>
+    </task>
+    <task id="LOCAL-00001" summary="init project">
+      <option name="closed" value="true" />
+      <created>1772519134780</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1772519134780</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: 쿠폰 남은 수량 column 추가">
+      <option name="closed" value="true" />
+      <created>1772519315776</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1772519315776</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: redis, rabbitMq 의존성 추가">
+      <option name="closed" value="true" />
+      <created>1772524455450</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1772524455450</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: Coupon 만료기한 컬럼 추가">
+      <option name="closed" value="true" />
+      <created>1772524469075</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1772524469075</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: db 속성 변경&#10;&#10;R2DBC -&gt; ReactiveCrudRepository&#10;CouponRepository -&gt; 만료기한 기준 조회 속성 추가">
+      <option name="closed" value="true" />
+      <created>1772524565516</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1772524565516</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: R2DBC 어노테이션 추가">
+      <option name="closed" value="true" />
+      <created>1772524580179</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1772524580179</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: 레디스 초기 세팅 코드 추가">
+      <option name="closed" value="true" />
+      <created>1772524596505</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1772524596505</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: gitignore 변경">
+      <option name="closed" value="true" />
+      <created>1772524614380</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1772524614380</updated>
+    </task>
+    <task id="LOCAL-00009" summary="refactor: 레디스 저장 방식 변경.&#10;&#10;Redission 에 직접 저장이 아닌, RedissionRepository를 사용해 저장, 조회 하도록 수정">
+      <option name="closed" value="true" />
+      <created>1772528017056</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1772528017057</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat, refactor : 코드 리팩토링 및 테스트용 API 추가">
+      <option name="closed" value="true" />
+      <created>1772777968188</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1772777968188</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat : 코드 리팩토링 및 테스트용 API 추가">
+      <option name="closed" value="true" />
+      <created>1772780479871</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1772780479871</updated>
+    </task>
+    <task id="LOCAL-00012" summary="remove: 필요없는 파일 삭제">
+      <option name="closed" value="true" />
+      <created>1772780596659</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1772780596659</updated>
+    </task>
+    <task id="LOCAL-00013" summary="chore: 해야할 것 리드미 작성">
+      <option name="closed" value="true" />
+      <created>1772780857580</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1772780857580</updated>
+    </task>
+    <task id="LOCAL-00014" summary="chore: gitignore 수정">
+      <option name="closed" value="true" />
+      <created>1772780868487</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1772780868487</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: 메세지 수신용 모듈 생성.">
+      <option name="closed" value="true" />
+      <created>1772780897808</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1772780897808</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: init">
+      <option name="closed" value="true" />
+      <created>1772781775630</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1772781775630</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Toy-Coupon" />
+      <path value="$PROJECT_DIR$/Toy-Issue-Coupon" />
+    </ignored-roots>
+    <MESSAGE value="init project" />
+    <MESSAGE value="feat: 쿠폰 남은 수량 column 추가" />
+    <MESSAGE value="feat: redis, rabbitMq 의존성 추가" />
+    <MESSAGE value="feat: Coupon 만료기한 컬럼 추가" />
+    <MESSAGE value="feat: db 속성 변경&#10;&#10;R2DBC -&gt; ReactiveCrudRepository&#10;CouponRepository -&gt; 만료기한 기준 조회 속성 추가" />
+    <MESSAGE value="feat: R2DBC 어노테이션 추가" />
+    <MESSAGE value="feat: 레디스 초기 세팅 코드 추가" />
+    <MESSAGE value="feat: gitignore 변경" />
+    <MESSAGE value="refactor: 레디스 저장 방식 변경.&#10;&#10;Redission 에 직접 저장이 아닌, RedissionRepository를 사용해 저장, 조회 하도록 수정" />
+    <MESSAGE value="feat, refactor : 코드 리팩토링 및 테스트용 API 추가" />
+    <MESSAGE value="feat : 코드 리팩토링 및 테스트용 API 추가" />
+    <MESSAGE value="remove: 필요없는 파일 삭제" />
+    <MESSAGE value="chore: 해야할 것 리드미 작성" />
+    <MESSAGE value="chore: gitignore 수정" />
+    <MESSAGE value="feat: 메세지 수신용 모듈 생성." />
+    <MESSAGE value="feat: init" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: init" />
+  </component>
+</project>

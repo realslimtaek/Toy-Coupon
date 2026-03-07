@@ -1,0 +1,130 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"155de07d-c926-4a36-a2c8-b82ff97e630a\" name=\"Changes\" comment=\"remove: 필요없는 파일 삭제\">\n      <change beforePath=\"$PROJECT_DIR$/Toy-Coupon/.gitignore\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Toy-Coupon/.gitignore\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ExternalProjectsData\">\n    <projectState path=\"$PROJECT_DIR$\">\n      <ProjectState />\n    </projectState>\n    <projectState path=\"$PROJECT_DIR$/Toy-Coupon\">\n      <ProjectState />\n    </projectState>\n    <projectState path=\"$PROJECT_DIR$/Toy-Coupon/Toy-Issue-Coupon\">\n      <ProjectState />\n    </projectState>\n    <projectState path=\"$PROJECT_DIR$/Toy-Issue-Coupon\">\n      <ProjectState />\n    </projectState>\n  </component>\n  <component name=\"ExternalProjectsManager\">\n    <system id=\"GRADLE\">\n      <state>\n        <task path=\"$PROJECT_DIR$\">\n          <activation />\n        </task>\n        <task path=\"$PROJECT_DIR$/Toy-Coupon\">\n          <activation />\n        </task>\n        <task path=\"$PROJECT_DIR$/Toy-Issue-Coupon\">\n          <activation />\n        </task>\n        <task path=\"$PROJECT_DIR$/Toy-Coupon/Toy-Issue-Coupon\">\n          <activation />\n        </task>\n        <projects_view>\n          <tree_state>\n            <expand />\n            <select />\n          </tree_state>\n        </projects_view>\n      </state>\n    </system>\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Dockerfile\" />\n        <option value=\"Kotlin Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <excluded-from-favorite>\n      <branch-storage>\n        <map>\n          <entry type=\"LOCAL\">\n            <value>\n              <list>\n                <branch-info repo=\"$PROJECT_DIR$/Toy-Coupon\" source=\"main\" />\n              </list>\n            </value>\n          </entry>\n        </map>\n      </branch-storage>\n    </excluded-from-favorite>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/Toy-Coupon\" />\n    <option name=\"ROOT_SYNC\" value=\"SYNC\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {\n    &quot;state&quot;: &quot;OPEN&quot;,\n    &quot;assignee&quot;: &quot;realslimtaek&quot;\n  }\n}</component>\n  <component name=\"GithubPullRequestsUISettings\">{\n  &quot;selectedUrlAndAccountId&quot;: {\n    &quot;url&quot;: &quot;https://github.com/realslimtaek/Toy-Coupon-Issue.git&quot;,\n    &quot;accountId&quot;: &quot;2916bed0-80a5-47fc-b5f4-5830703a9353&quot;\n  }\n}</component>\n  <component name=\"GradleScriptDefinitionsStorage\" workingDir=\"$PROJECT_DIR$/Toy-Issue-Coupon\" gradleHome=\"$USER_HOME$/.gradle/wrapper/dists/gradle-9.3.1-bin/23ovyewtku6u96viwx3xl3oks/gradle-9.3.1\" javaHome=\"$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-25.0.2/Contents/Home\" gradleVersion=\"9.3.1\" />\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 8\n}</component>\n  <component name=\"ProjectId\" id=\"3AQCrWfOHVbh3f6kxC6ok38F9NB\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"Gradle.Build Toy-Coupon.executor\": \"Run\",\n    \"Gradle.Toy-Coupon [build] (1).executor\": \"Run\",\n    \"Gradle.Toy-Coupon [build].executor\": \"Run\",\n    \"Gradle.Toy-Coupon [clean] (1).executor\": \"Run\",\n    \"Gradle.Toy-Coupon [clean].executor\": \"Run\",\n    \"Gradle.Toy-Issue-Coupon [build].executor\": \"Run\",\n    \"Gradle.Toy-Issue-Coupon [clean] (1).executor\": \"Run\",\n    \"Gradle.Toy-Issue-Coupon [clean].executor\": \"Run\",\n    \"ModuleVcsDetector.initialDetectionPerformed\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252\": \"true\",\n    \"RunOnceActivity.git.unshallow\": \"true\",\n    \"Spring Boot.CouponIssueApplication.executor\": \"Run\",\n    \"git-widget-placeholder\": \"main\",\n    \"kotlin-language-version-configured\": \"true\",\n    \"last_opened_file_path\": \"/Users/realslimtaek/IdeaProjects/Toy-Coupon/Toy-Coupon/src/main/resources\",\n    \"project.structure.last.edited\": \"Modules\",\n    \"project.structure.proportion\": \"0.15\",\n    \"project.structure.side.proportion\": \"0.2\",\n    \"settings.editor.selected.configurable\": \"reference.settingsdialog.project.gradle\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/Toy-Coupon/src/main/resources\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$\" />\n    </key>\n    <key name=\"K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY\">\n      <recent name=\"com.toy.projects.coupon.entity\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Gradle.Toy-Coupon [build] (1)\">\n    <configuration name=\"Toy-Coupon [build] (1)\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\n      <ExternalSystemSettings>\n        <option name=\"executionName\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$/Toy-Coupon\" />\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\n        <option name=\"scriptParameters\" />\n        <option name=\"taskDescriptions\">\n          <list />\n        </option>\n        <option name=\"taskNames\">\n          <list>\n            <option value=\"build\" />\n          </list>\n        </option>\n        <option name=\"vmOptions\" />\n      </ExternalSystemSettings>\n      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\n      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>\n      <DebugAllEnabled>false</DebugAllEnabled>\n      <RunAsTest>false</RunAsTest>\n      <GradleProfilingDisabled>false</GradleProfilingDisabled>\n      <GradleCoverageDisabled>false</GradleCoverageDisabled>\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"Toy-Coupon [clean] (1)\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\n      <ExternalSystemSettings>\n        <option name=\"executionName\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$/Toy-Coupon\" />\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\n        <option name=\"scriptParameters\" />\n        <option name=\"taskDescriptions\">\n          <list />\n        </option>\n        <option name=\"taskNames\">\n          <list>\n            <option value=\"clean\" />\n          </list>\n        </option>\n        <option name=\"vmOptions\" />\n      </ExternalSystemSettings>\n      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\n      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>\n      <DebugAllEnabled>false</DebugAllEnabled>\n      <RunAsTest>false</RunAsTest>\n      <GradleProfilingDisabled>false</GradleProfilingDisabled>\n      <GradleCoverageDisabled>false</GradleCoverageDisabled>\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"Toy-Issue-Coupon [build]\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\n      <ExternalSystemSettings>\n        <option name=\"executionName\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$/Toy-Issue-Coupon\" />\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\n        <option name=\"scriptParameters\" />\n        <option name=\"taskDescriptions\">\n          <list />\n        </option>\n        <option name=\"taskNames\">\n          <list>\n            <option value=\"build\" />\n          </list>\n        </option>\n        <option name=\"vmOptions\" />\n      </ExternalSystemSettings>\n      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\n      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>\n      <DebugAllEnabled>false</DebugAllEnabled>\n      <RunAsTest>false</RunAsTest>\n      <GradleProfilingDisabled>false</GradleProfilingDisabled>\n      <GradleCoverageDisabled>false</GradleCoverageDisabled>\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"Toy-Issue-Coupon [clean]\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\n      <ExternalSystemSettings>\n        <option name=\"executionName\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$/Toy-Issue-Coupon\" />\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\n        <option name=\"scriptParameters\" />\n        <option name=\"taskDescriptions\">\n          <list />\n        </option>\n        <option name=\"taskNames\">\n          <list>\n            <option value=\"clean\" />\n          </list>\n        </option>\n        <option name=\"vmOptions\" />\n      </ExternalSystemSettings>\n      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\n      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>\n      <DebugAllEnabled>false</DebugAllEnabled>\n      <RunAsTest>false</RunAsTest>\n      <GradleProfilingDisabled>false</GradleProfilingDisabled>\n      <GradleCoverageDisabled>false</GradleCoverageDisabled>\n      <method v=\"2\" />\n    </configuration>\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\n      <module name=\"projects\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\n      <module name=\"projects\" />\n      <option name=\"filePath\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"CouponIssueApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\n      <option name=\"ACTIVE_PROFILES\" value=\"local\" />\n      <option name=\"FRAME_DEACTIVATION_UPDATE_POLICY\" value=\"UnknownPolicyInFreeMode\" />\n      <module name=\"Toy_Coupon.main\" />\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.toy.projects.CouponIssueApplication\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.toy.projects.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.toy.projects.config.*\" />\n          <option name=\"ENABLED\" value=\"false\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <list>\n      <item itemvalue=\"Gradle.Toy-Coupon [build] (1)\" />\n      <item itemvalue=\"Gradle.Toy-Coupon [clean] (1)\" />\n      <item itemvalue=\"Gradle.Toy-Issue-Coupon [build]\" />\n      <item itemvalue=\"Gradle.Toy-Issue-Coupon [clean]\" />\n      <item itemvalue=\"Spring Boot.CouponIssueApplication\" />\n    </list>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Gradle.Toy-Coupon [build] (1)\" />\n        <item itemvalue=\"Gradle.Toy-Issue-Coupon [build]\" />\n        <item itemvalue=\"Gradle.Toy-Issue-Coupon [clean]\" />\n        <item itemvalue=\"Gradle.Toy-Coupon [clean] (1)\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"155de07d-c926-4a36-a2c8-b82ff97e630a\" name=\"Changes\" comment=\"\" />\n      <created>1772515605487</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1772515605487</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"init project\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1772519134780</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1772519134780</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"feat: 쿠폰 남은 수량 column 추가\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1772519315776</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1772519315776</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"feat: redis, rabbitMq 의존성 추가\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1772524455450</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1772524455450</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"feat: Coupon 만료기한 컬럼 추가\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1772524469075</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1772524469075</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"feat: db 속성 변경&#10;&#10;R2DBC -&gt; ReactiveCrudRepository&#10;CouponRepository -&gt; 만료기한 기준 조회 속성 추가\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1772524565516</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1772524565516</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"feat: R2DBC 어노테이션 추가\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1772524580179</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1772524580179</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"feat: 레디스 초기 세팅 코드 추가\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1772524596505</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1772524596505</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"feat: gitignore 변경\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1772524614380</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1772524614380</updated>\n    </task>\n    <task id=\"LOCAL-00009\" summary=\"refactor: 레디스 저장 방식 변경.&#10;&#10;Redission 에 직접 저장이 아닌, RedissionRepository를 사용해 저장, 조회 하도록 수정\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1772528017056</created>\n      <option name=\"number\" value=\"00009\" />\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1772528017057</updated>\n    </task>\n    <task id=\"LOCAL-00010\" summary=\"feat, refactor : 코드 리팩토링 및 테스트용 API 추가\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1772777968188</created>\n      <option name=\"number\" value=\"00010\" />\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1772777968188</updated>\n    </task>\n    <task id=\"LOCAL-00011\" summary=\"feat : 코드 리팩토링 및 테스트용 API 추가\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1772780479871</created>\n      <option name=\"number\" value=\"00011\" />\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1772780479871</updated>\n    </task>\n    <task id=\"LOCAL-00012\" summary=\"remove: 필요없는 파일 삭제\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1772780596659</created>\n      <option name=\"number\" value=\"00012\" />\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1772780596659</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"13\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State>\n              <option name=\"FILTERS\">\n                <map>\n                  <entry key=\"branch\">\n                    <value>\n                      <list>\n                        <option value=\"main\" />\n                      </list>\n                    </value>\n                  </entry>\n                </map>\n              </option>\n            </State>\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"init project\" />\n    <MESSAGE value=\"feat: 쿠폰 남은 수량 column 추가\" />\n    <MESSAGE value=\"feat: redis, rabbitMq 의존성 추가\" />\n    <MESSAGE value=\"feat: Coupon 만료기한 컬럼 추가\" />\n    <MESSAGE value=\"feat: db 속성 변경&#10;&#10;R2DBC -&gt; ReactiveCrudRepository&#10;CouponRepository -&gt; 만료기한 기준 조회 속성 추가\" />\n    <MESSAGE value=\"feat: R2DBC 어노테이션 추가\" />\n    <MESSAGE value=\"feat: 레디스 초기 세팅 코드 추가\" />\n    <MESSAGE value=\"feat: gitignore 변경\" />\n    <MESSAGE value=\"refactor: 레디스 저장 방식 변경.&#10;&#10;Redission 에 직접 저장이 아닌, RedissionRepository를 사용해 저장, 조회 하도록 수정\" />\n    <MESSAGE value=\"feat, refactor : 코드 리팩토링 및 테스트용 API 추가\" />\n    <MESSAGE value=\"feat : 코드 리팩토링 및 테스트용 API 추가\" />\n    <MESSAGE value=\"remove: 필요없는 파일 삭제\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"remove: 필요없는 파일 삭제\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 4567bf5c5093c9ba224e2c228a9b9745b9d096ee)
++++ b/.idea/workspace.xml	(date 1772781710851)
+@@ -4,8 +4,9 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="155de07d-c926-4a36-a2c8-b82ff97e630a" name="Changes" comment="remove: 필요없는 파일 삭제">
+-      <change beforePath="$PROJECT_DIR$/Toy-Coupon/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Toy-Coupon/.gitignore" afterDir="false" />
++    <list default="true" id="155de07d-c926-4a36-a2c8-b82ff97e630a" name="Changes" comment="feat: 메세지 수신용 모듈 생성.">
++      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -43,7 +44,23 @@
+         </task>
+         <projects_view>
+           <tree_state>
+-            <expand />
++            <expand>
++              <path>
++                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
++                <item name="Toy_Coupon" type="f1a62948:ProjectNode" />
++              </path>
++              <path>
++                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
++                <item name="Toy_Coupon" type="f1a62948:ProjectNode" />
++                <item name="Tasks" type="e4a08cd1:TasksNode" />
++              </path>
++              <path>
++                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
++                <item name="Toy_Coupon" type="f1a62948:ProjectNode" />
++                <item name="Tasks" type="e4a08cd1:TasksNode" />
++                <item name="build" type="c8890929:TasksNode$1" />
++              </path>
++            </expand>
+             <select />
+           </tree_state>
+         </projects_view>
+@@ -117,7 +134,7 @@
+     "project.structure.last.edited": "Modules",
+     "project.structure.proportion": "0.15",
+     "project.structure.side.proportion": "0.2",
+-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
++    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+   }
+ }]]></component>
+   <component name="RecentsManager">
+@@ -389,7 +406,31 @@
+       <option name="project" value="LOCAL" />
+       <updated>1772780596659</updated>
+     </task>
+-    <option name="localTasksCounter" value="13" />
++    <task id="LOCAL-00013" summary="chore: 해야할 것 리드미 작성">
++      <option name="closed" value="true" />
++      <created>1772780857580</created>
++      <option name="number" value="00013" />
++      <option name="presentableId" value="LOCAL-00013" />
++      <option name="project" value="LOCAL" />
++      <updated>1772780857580</updated>
++    </task>
++    <task id="LOCAL-00014" summary="chore: gitignore 수정">
++      <option name="closed" value="true" />
++      <created>1772780868487</created>
++      <option name="number" value="00014" />
++      <option name="presentableId" value="LOCAL-00014" />
++      <option name="project" value="LOCAL" />
++      <updated>1772780868487</updated>
++    </task>
++    <task id="LOCAL-00015" summary="feat: 메세지 수신용 모듈 생성.">
++      <option name="closed" value="true" />
++      <created>1772780897808</created>
++      <option name="number" value="00015" />
++      <option name="presentableId" value="LOCAL-00015" />
++      <option name="project" value="LOCAL" />
++      <updated>1772780897808</updated>
++    </task>
++    <option name="localTasksCounter" value="16" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -416,6 +457,10 @@
+     </option>
+   </component>
+   <component name="VcsManagerConfiguration">
++    <ignored-roots>
++      <path value="$PROJECT_DIR$/Toy-Coupon" />
++      <path value="$PROJECT_DIR$/Toy-Issue-Coupon" />
++    </ignored-roots>
+     <MESSAGE value="init project" />
+     <MESSAGE value="feat: 쿠폰 남은 수량 column 추가" />
+     <MESSAGE value="feat: redis, rabbitMq 의존성 추가" />
+@@ -428,6 +473,9 @@
+     <MESSAGE value="feat, refactor : 코드 리팩토링 및 테스트용 API 추가" />
+     <MESSAGE value="feat : 코드 리팩토링 및 테스트용 API 추가" />
+     <MESSAGE value="remove: 필요없는 파일 삭제" />
+-    <option name="LAST_COMMIT_MESSAGE" value="remove: 필요없는 파일 삭제" />
++    <MESSAGE value="chore: 해야할 것 리드미 작성" />
++    <MESSAGE value="chore: gitignore 수정" />
++    <MESSAGE value="feat: 메세지 수신용 모듈 생성." />
++    <option name="LAST_COMMIT_MESSAGE" value="feat: 메세지 수신용 모듈 생성." />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"VcsDirectoryMappings\">\n    <mapping directory=\"\" vcs=\"Git\" />\n    <mapping directory=\"$PROJECT_DIR$/Toy-Coupon\" vcs=\"Git\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	(revision 4567bf5c5093c9ba224e2c228a9b9745b9d096ee)
++++ b/.idea/vcs.xml	(date 1772781231966)
+@@ -2,6 +2,5 @@
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+     <mapping directory="" vcs="Git" />
+-    <mapping directory="$PROJECT_DIR$/Toy-Coupon" vcs="Git" />
+   </component>
+ </project>
+\ No newline at end of file
