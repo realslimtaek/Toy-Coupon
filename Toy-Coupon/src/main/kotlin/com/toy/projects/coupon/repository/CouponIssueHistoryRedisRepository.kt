@@ -1,5 +1,6 @@
 package com.toy.projects.coupon.repository
 
+import org.redisson.api.RSetReactive
 import org.redisson.api.RedissonReactiveClient
 import org.springframework.stereotype.Component
 import reactor.core.publisher.Mono
@@ -13,6 +14,10 @@ class CouponIssueHistoryRedisRepository(
 
     fun issuedBefore(couponId: Long, userId: String): Mono<Boolean> {
         return redissonClient.getSet<String>(generateKey(couponId)).contains(userId)
+    }
+
+    fun get(couponId: Long): RSetReactive<String?>? {
+        return redissonClient.getSet<String>(generateKey(couponId))
     }
 
 }

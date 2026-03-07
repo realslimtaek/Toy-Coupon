@@ -12,8 +12,8 @@ class CouponIssueHistoryRedisRepository(
 
     private fun generateKey(couponId: Long) = "coupon:history:$couponId"
 
-    fun setHistory(couponId: Long, users: Flux<Long>): Mono<Void> {
-        val set = redissonClient.getSet<Long>(generateKey(couponId))
+    fun setHistory(couponId: Long, users: Flux<String>): Mono<Void> {
+        val set = redissonClient.getSet<String>(generateKey(couponId))
 
         return set.addAll(users).then()
     }
