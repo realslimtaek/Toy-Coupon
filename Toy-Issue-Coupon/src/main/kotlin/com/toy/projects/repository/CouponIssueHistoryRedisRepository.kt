@@ -1,4 +1,4 @@
-package com.example.toyissuecoupon.repository
+package com.toy.projects.repository
 
 import org.redisson.api.RedissonReactiveClient
 import org.springframework.stereotype.Component

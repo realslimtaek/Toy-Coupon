@@ -1,6 +1,6 @@
-package com.example.toyissuecoupon.repository
+package com.toy.projects.repository
 
-import com.example.toyissuecoupon.entity.CouponEntity
+import com.toy.projects.entity.CouponEntity
 import org.springframework.data.repository.reactive.ReactiveCrudRepository
 import reactor.core.publisher.Flux
 import java.time.LocalDateTime

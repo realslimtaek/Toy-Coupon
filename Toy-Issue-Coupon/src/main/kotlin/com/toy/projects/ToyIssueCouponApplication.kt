@@ -1,4 +1,4 @@
-package com.example.toyissuecoupon
+package com.toy.projects
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

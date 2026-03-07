@@ -1,9 +1,9 @@
-package com.example.toyissuecoupon.config
+package com.toy.projects.config
 
-import com.example.toyissuecoupon.repository.CouponIssueHistoryRedisRepository
-import com.example.toyissuecoupon.repository.CouponIssueHistoryRepository
-import com.example.toyissuecoupon.repository.CouponRepository
-import com.example.toyissuecoupon.repository.CouponStockRedisRepository
+import com.toy.projects.repository.CouponIssueHistoryRedisRepository
+import com.toy.projects.repository.CouponIssueHistoryRepository
+import com.toy.projects.repository.CouponRepository
+import com.toy.projects.repository.CouponStockRedisRepository
 import org.springframework.boot.ApplicationArguments
 import org.springframework.boot.ApplicationRunner
 import org.springframework.stereotype.Component
