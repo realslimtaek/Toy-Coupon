@@ -38,7 +38,8 @@ dependencies {
 	implementation("org.redisson:redisson-spring-boot-starter:4.2.0")
 
 	//rabbitMQ
-	implementation("org.springframework.amqp:spring-rabbit:4.0.2")
+	implementation("org.springframework.amqp:spring-rabbit")
+	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 
 	testImplementation("org.springframework.boot:spring-boot-starter-data-r2dbc-test")
 	testImplementation("org.springframework.boot:spring-boot-starter-r2dbc-test")
