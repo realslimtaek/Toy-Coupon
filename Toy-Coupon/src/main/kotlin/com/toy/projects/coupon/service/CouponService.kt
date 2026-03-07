@@ -4,6 +4,7 @@ import com.toy.projects.coupon.dto.MessageQueueEnum
 import com.toy.projects.coupon.repository.CouponIssueHistoryRedisRepository
 import com.toy.projects.coupon.repository.CouponStockRedisRepository
 import com.toy.projects.coupon.service.mq.MessageSender
+import com.toy.projects.coupon.service.mq.dto.IssueCouponMessageDto
 import org.springframework.stereotype.Service
 import reactor.core.publisher.Mono
 
@@ -30,7 +31,7 @@ class CouponService(
             .flatMap { redisRepository.decreaseStock(couponId, 1) }
             // 차감 후 메세지 발생
             .doOnSuccess { _ ->
-                messageSender.send(MessageQueueEnum.ISSUE_COUPON, "test")
+                messageSender.send(MessageQueueEnum.ISSUE_COUPON, IssueCouponMessageDto(couponId, userId))
             }
             .then()
     }
