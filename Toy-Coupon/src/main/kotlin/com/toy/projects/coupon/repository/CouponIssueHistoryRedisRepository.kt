@@ -12,8 +12,8 @@ class CouponIssueHistoryRedisRepository(
 
     private fun generateKey(couponId: Long) = "coupon:history:$couponId"
 
-    fun issuedBefore(couponId: Long, userId: String): Mono<Boolean> {
-        return redissonClient.getSet<String>(generateKey(couponId)).contains(userId)
+    fun add(couponId: Long, userId: String): Mono<Boolean> {
+        return redissonClient.getSet<String>(generateKey(couponId)).add(userId)
     }
 
     fun get(couponId: Long): RSetReactive<String?>? {

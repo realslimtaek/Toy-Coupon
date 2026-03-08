@@ -18,7 +18,7 @@ class MessageConsumer(
         println("<<< 메시지 배치 수신: ${dataList.size}개")
         return Flux.fromIterable(dataList)
             .flatMap({ data ->
-                couponService.handleMessage(data).retry(3)
+                couponService.handleMessage(data)
             }, 10)
             .then()
             .doOnSuccess { println("<<< 메시지 배치 처리 완료") }
