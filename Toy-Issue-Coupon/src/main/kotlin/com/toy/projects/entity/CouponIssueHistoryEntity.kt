@@ -8,7 +8,7 @@ import java.time.ZoneId
 
 
 @Table(name = "COUPON_ISSUE_HISTORY")
-class CouponIssueHistory (
+class CouponIssueHistoryEntity (
 
     @Id
     var id: Long? = null,
