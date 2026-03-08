@@ -31,7 +31,6 @@ class RabbitConfig(
         const val ROUTING_KEY = "issue.key"
     }
 
-    // 1. Connection 설정 (Docker에 설정한 admin/1234 사용)
     @Bean
     fun rabbitConnectionFactory(): ConnectionFactory {
         val factory = CachingConnectionFactory("localhost")
@@ -41,7 +40,6 @@ class RabbitConfig(
         return factory
     }
 
-    // 2. Queue, Exchange, Binding 등록 (RabbitAdmin이 이 빈들을 보고 브로커에 생성함)
     @Bean
     fun amqpAdmin(): RabbitAdmin {
         return RabbitAdmin(rabbitConnectionFactory())
