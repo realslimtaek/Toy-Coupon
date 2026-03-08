@@ -26,7 +26,7 @@ class CouponCustomRepositoryImpl(
             .sql("""
                 UPDATE COUPONS
                 SET REMAIN = REMAIN - 1
-                WHERE id = :id
+                WHERE id = :id AND REMAIN > 0
             """.trimIndent())
             .bind("id", couponId)
             .fetch()
