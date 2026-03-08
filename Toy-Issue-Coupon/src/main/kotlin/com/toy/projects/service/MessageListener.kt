@@ -5,6 +5,7 @@ import com.toy.projects.service.mq.dto.IssueCouponMessageDto
 import org.springframework.amqp.rabbit.annotation.RabbitListener
 import org.springframework.stereotype.Service
 import reactor.core.publisher.Flux
+import reactor.core.publisher.Mono
 
 
 @Service
@@ -13,16 +14,14 @@ class MessageConsumer(
 ) {
 
     @RabbitListener(queues = [RabbitConfig.QUEUE_NAME])
-    fun receiveMessages(dataList: List<IssueCouponMessageDto>) {
+    fun receiveMessages(dataList: List<IssueCouponMessageDto>): Mono<Void> {
         println("<<< 메시지 배치 수신: ${dataList.size}개")
-        Flux.fromIterable(dataList)
+        return Flux.fromIterable(dataList)
             .flatMap({ data ->
                 couponService.handleMessage(data).retry(3)
             }, 10)
             .then()
-            .subscribe(
-                { println("<<< 메시지 배치 처리 완료") },
-                { e -> println("<<< 메시지 배치 처리 실패: ${e.message}") }
-            )
+            .doOnSuccess { println("<<< 메시지 배치 처리 완료") }
+            .doOnError { e -> println("<<< 메시지 배치 처리 실패: ${e.message}") }
     }
 }
