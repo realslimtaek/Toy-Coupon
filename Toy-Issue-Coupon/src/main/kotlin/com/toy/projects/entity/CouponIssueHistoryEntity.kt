@@ -20,6 +20,6 @@ class CouponIssueHistoryEntity (
     var userId: String,
 
     @Column("ISSUED_AT")
-    var issuedAt: LocalDateTime = LocalDateTime.now(ZoneId.of("Asia/Seoul"))
+    var issuedAt: LocalDateTime
 
 )
