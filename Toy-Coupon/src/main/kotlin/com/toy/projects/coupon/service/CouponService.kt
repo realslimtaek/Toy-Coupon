@@ -30,7 +30,7 @@ class CouponService(
             // 쿠폰 수량 차감
             .flatMap { redisRepository.decreaseStock(couponId, 1) }
             // 차감 후 메세지 발생
-            .doOnSuccess { _ ->
+            .flatMap {
                 messageSender.send(MessageQueueEnum.ISSUE_COUPON, IssueCouponMessageDto(couponId, userId))
             }
             .then()

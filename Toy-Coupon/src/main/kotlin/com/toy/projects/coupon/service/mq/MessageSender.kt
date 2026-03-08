@@ -4,20 +4,17 @@ import com.toy.projects.coupon.dto.MessageQueueEnum
 import com.toy.projects.coupon.service.mq.dto.IssueCouponMessageDto
 import org.springframework.amqp.rabbit.core.RabbitTemplate
 import org.springframework.stereotype.Service
+import reactor.core.publisher.Mono
+import reactor.core.scheduler.Schedulers
 
 @Service
 class MessageSender(private val rabbitTemplate: RabbitTemplate) {
 
-    /**
-     * @param exchange 메시지를 보낼 Exchange 이름
-     * @param routingKey 메시지를 전달할 경로 (Routing Key)
-     * @param data 보낼 데이터 (객체, 문자열 등)
-     */
-    fun send(enum: MessageQueueEnum, data: IssueCouponMessageDto) {
-        println(">>> 메시지 발행 시도: $data")
-        
-        rabbitTemplate.convertAndSend(enum.exchange, enum.routingKey, data)
-        
-        println(">>> 메시지 발행 완료")
+    fun send(enum: MessageQueueEnum, data: IssueCouponMessageDto): Mono<Void> {
+        return Mono.fromRunnable<Void> {
+            println(">>> 메시지 발행 시도: $data")
+            rabbitTemplate.convertAndSend(enum.exchange, enum.routingKey, data)
+            println(">>> 메시지 발행 완료")
+        }.subscribeOn(Schedulers.boundedElastic())
     }
 }
