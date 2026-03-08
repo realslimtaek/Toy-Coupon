@@ -37,10 +37,10 @@ class RedisWarmupRunner(
                 } ?: Mono.empty<Void>() // couponEntity나 id가 null이면 아무것도 하지 않음
             }
             .count() // 스트림의 총 개수를 셉니다.
-            .subscribe(
-                { count -> println("✨ 총 $count 개의 쿠폰 재고 로드 완료!") },
-                { error -> println("❌ 재고 로딩 에러: ${error.message}") }
-            )
+            .then()
+            .doOnSuccess { count -> println("✨ 총 $count 개의 쿠폰 재고 로드 완료!") }
+            .doOnError { error -> println("❌ 재고 로딩 에러: ${error.message}") }
+            .block()
 
 
         // 히스토리 로딩 부분도 flatMap으로 수정하는 것이 더 안전합니다.
