@@ -15,4 +15,8 @@ class CouponStockRedisRepository(
         return redissonClient.getAtomicLong(generateKey(id)).set(count).then()
     }
 
+    fun getStock(id: Long): Mono<Long> {
+        return redissonClient.getAtomicLong(generateKey(id)).get()
+    }
+
 }

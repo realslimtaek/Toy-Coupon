@@ -14,6 +14,7 @@ interface CouponRepository: ReactiveCrudRepository<CouponEntity, Long>, CouponCu
 
 interface CouponCustomRepository {
     fun updateStock(couponId: Long): Mono<Long>
+    fun syncStock(couponId: Long, stock: Long): Mono<Long>
 }
 
 class CouponCustomRepositoryImpl(
@@ -29,6 +30,19 @@ class CouponCustomRepositoryImpl(
                 WHERE id = :id AND REMAIN > 0
             """.trimIndent())
             .bind("id", couponId)
+            .fetch()
+            .rowsUpdated()
+    }
+
+    override fun syncStock(couponId: Long, stock: Long): Mono<Long> {
+        return template.databaseClient
+            .sql("""
+                UPDATE COUPONS
+                SET REMAIN = :stock
+                WHERE id = :id
+            """.trimIndent())
+            .bind("id", couponId)
+            .bind("stock", stock)
             .fetch()
             .rowsUpdated()
     }
