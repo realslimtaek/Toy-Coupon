@@ -4,6 +4,7 @@ import com.toy.projects.repository.CouponIssueHistoryRedisRepository
 import com.toy.projects.repository.CouponIssueHistoryRepository
 import com.toy.projects.repository.CouponRepository
 import com.toy.projects.repository.CouponStockRedisRepository
+import org.slf4j.LoggerFactory
 import org.springframework.boot.ApplicationArguments
 import org.springframework.boot.ApplicationRunner
 import org.springframework.stereotype.Component
@@ -20,9 +21,10 @@ class RedisWarmupRunner(
     private val redisRepository: CouponStockRedisRepository,
     private val historyRedisRepository: CouponIssueHistoryRedisRepository
 ) : ApplicationRunner {
+    private val logger = LoggerFactory.getLogger(javaClass)
 
     override fun run(args: ApplicationArguments) {
-        println("🚀 [Warmup] 쿠폰 데이터를 Redis로 로딩 시작...")
+        logger.info("🚀 [Warmup] 쿠폰 데이터를 Redis로 로딩 시작...")
 
         // mapNotNull 대신 flatMap을 사용합니다.
         couponRepository.findAllByExpiredAtGreaterThan(now)
@@ -30,15 +32,15 @@ class RedisWarmupRunner(
                 // couponEntity나 id가 null일 경우를 안전하게 처리
                 couponEntity?.id?.let { couponId ->
                     // 어떤 값으로 setStock이 호출되는지 로그를 남겨서 확인합니다.
-                    println("  -> [Warmup] couponId=${couponId}, remain=${couponEntity.remain} 재고 로딩 중...")
+                    logger.info("  -> [Warmup] couponId=${couponId}, remain=${couponEntity.remain} 재고 로딩 중...")
                     // setStock이 반환하는 Mono를 flatMap이 구독하여 실행을 보장합니다.
                     redisRepository.setStock(couponId, couponEntity.remain)
-                } ?: Mono.empty<Void>() // couponEntity나 id가 null이면 아무것도 하지 않음
+                } ?: Mono.empty() // couponEntity나 id가 null이면 아무것도 하지 않음
             }
             .count() // 스트림의 총 개수를 셉니다.
             .then()
-            .doOnSuccess { count -> println("✨ 총 $count 개의 쿠폰 재고 로드 완료!") }
-            .doOnError { error -> println("❌ 재고 로딩 에러: ${error.message}") }
+            .doOnSuccess { count -> logger.info("✨ 총 $count 개의 쿠폰 재고 로드 완료!") }
+            .doOnError { error -> logger.error("❌ 재고 로딩 에러: ${error.message}") }
             .block()
 
 
@@ -51,8 +53,8 @@ class RedisWarmupRunner(
             }
             .count() // 몇 개의 쿠폰 히스토리가 있었는지 셉니다.
             .then()
-            .doOnSuccess { count -> println("✨ 총 $count 종류의 쿠폰 히스토리 로드 완료!") }
-            .doOnError { error -> println("❌ 히스토리 로딩 에러: ${error.message}") }
+            .doOnSuccess { count -> logger.info("✨ 총 $count 종류의 쿠폰 히스토리 로드 완료!") }
+            .doOnError { error -> logger.error("❌ 히스토리 로딩 에러: ${error.message}") }
             .subscribe()
 
     }

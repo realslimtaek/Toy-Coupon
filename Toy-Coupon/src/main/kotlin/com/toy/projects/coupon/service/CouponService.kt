@@ -5,6 +5,7 @@ import com.toy.projects.coupon.repository.CouponIssueHistoryRedisRepository
 import com.toy.projects.coupon.repository.CouponStockRedisRepository
 import com.toy.projects.coupon.service.mq.MessageSender
 import com.toy.projects.coupon.service.mq.dto.IssueCouponMessageDto
+import org.slf4j.LoggerFactory
 import org.springframework.stereotype.Service
 import reactor.core.publisher.Mono
 
@@ -14,6 +15,9 @@ class CouponService(
     private val historyRedisRepository: CouponIssueHistoryRedisRepository,
     private val messageSender: MessageSender
 ) {
+
+    private val logger = LoggerFactory.getLogger(javaClass)
+
     fun test(userId: String, couponId: Long): Mono<Void> {
         // 발급한 쿠폰인지 확인
         return historyRedisRepository.add(couponId, userId)
@@ -26,7 +30,7 @@ class CouponService(
                                     .then(Mono.error(RuntimeException("이미 발급 만료된 쿠폰입니다.")))
 
                             } else {
-                                println("issue message")
+                                logger.info(">>> 큐 발송")
                                 messageSender.send(
                                     MessageQueueEnum.ISSUE_COUPON,
                                     IssueCouponMessageDto(couponId, userId)
