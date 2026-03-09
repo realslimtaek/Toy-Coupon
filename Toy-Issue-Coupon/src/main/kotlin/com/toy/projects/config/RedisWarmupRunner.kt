@@ -50,9 +50,10 @@ class RedisWarmupRunner(
                 historyRedisRepository.setHistory(groupedFlux.key(), groupedFlux.map { it.userId })
             }
             .count() // 몇 개의 쿠폰 히스토리가 있었는지 셉니다.
-            .subscribe(
-                { count -> println("✨ 총 $count 종류의 쿠폰 히스토리 로드 완료!") },
-                { error -> println("❌ 히스토리 로딩 에러: ${error.message}") }
-            )
+            .then()
+            .doOnSuccess { count -> println("✨ 총 $count 종류의 쿠폰 히스토리 로드 완료!") }
+            .doOnError { error -> println("❌ 히스토리 로딩 에러: ${error.message}") }
+            .subscribe()
+
     }
 }
